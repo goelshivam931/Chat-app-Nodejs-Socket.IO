@@ -2,10 +2,10 @@ const socket = io();
 
 let name;
 
-/*do {
+do {
     name = prompt('Enter your Name:');
 }
-while (!name);*/
+while (!name);
 
 let textarea = document.querySelector('#textarea');
 let messagearea = document.querySelector('.message_area');
